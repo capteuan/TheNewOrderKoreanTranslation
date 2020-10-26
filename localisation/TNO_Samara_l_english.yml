@@ -206,15 +206,15 @@
  SAM_smuggle_support_equipment:0 "Smuggle Support Equipment"
  SAM_smuggle_motorized_equipment:0 "Smuggle Motorized Equipment" 
  
- SAM_import_luxury_goods_soldiers:0 "Luxury Goods for the Soldiers"
- SAM_import_luxury_goods_officers:0 "Luxury Goods for the Officers"
- SAM_import_luxury_goods_civilians:0 "Luxury Goods for the Civilians"
- SAM_import_medical_supplies:0 "Medical Supplies for the Civilians"
- SAM_import_food_supplies:0 "Food for the Civilians"
- SAM_import_food_soldiers:0 "Food for the Soldiers"
+ SAM_import_luxury_goods_soldiers:0 "병사들을 위한 사치품"
+ SAM_import_luxury_goods_officers:0 "장교들을 위한 사치품"
+ SAM_import_luxury_goods_civilians:0 "민간인을 위한 사치품"
+ SAM_import_medical_supplies:0 "민간인을 위한 의약품"
+ SAM_import_food_supplies:0 "민간인을 위한 식량"
+ SAM_import_food_soldiers:0 "병사들을 위한 식량"
  
- SAM_improve_oversight:0 "Improve Oversight"
- SAM_investigate_corruption:0 "Investigate Corruption"
+ SAM_improve_oversight:0 "감시 체 개선"
+ SAM_investigate_corruption:0 "부패 감찰"
  
  SAM_military_morale_low:0 "Low Military Morale"
  SAM_military_morale_medium:0 "Average Military Morale"
@@ -229,12 +229,12 @@
  SAM_ROA_category:0 "The ROA"
  SAM_ROA_category_desc: "The ROA is lacking in officers, we must ensure that adequate leadership is available. This might be a good opportunity to ensure that the chosen heir has the support and loyalty of the officer corps.\n\nThe ROA currently has [ROOT.GetSAM_ROA_officers] of officers.\n\nThe ROA is currently [ROOt.GetSAM_ROA_support] to [ROOt.GetSAM_heir]."
  
- SAM_higher_pay_officers:0 "Higher Pay for Officers"
- SAM_demote_disloyal_officers:0 "Demote Disloyal Officers"
- SAM_decrease_standards:0 "Decrease Standards"
+ SAM_higher_pay_officers:0 "장교진 봉급 인상"
+ SAM_demote_disloyal_officers:0 "불성실한 장교들 강등"
+ SAM_decrease_standards:0 "심사 기준 하향"
  SAM_recruitment_campaign:0 "Recruitment Campaign"
- SAM_luxuries_for_officers:0 "Luxuries for Officers"
- SAM_bribe_rival_officers:0 "Bribe Rival Officers"
+ SAM_luxuries_for_officers:0 "장교들을 위한 사치품"
+ SAM_bribe_rival_officers:0 "적대 장교 매수"
  
  SAM_very_high_ROA_officers:0 "an §Gabundance§!"
  SAM_high_ROA_officers:0 "an §Yadequate number§!"
@@ -416,7 +416,7 @@
  SAM_low_inner_circle_tension:0 "§GLow§!"
  SAM_negligent_inner_circle_tension:0 "§LNegligent§!"
  
- SAM_unity_party_category:0 "State of the Unity Party"
+ SAM_unity_party_category:0 "통합당의 현 상황"
  SAM_unity_party_category_desc:0 "Factions in the Unity Party:\n\nInfluence §jROA§!: [root.GetSAM_ROA_faction]\nInfluence §TBusiness§!: [root.GetSAM_business_faction]\nInfluence §MDemocrats§!: [root.GetSAM_democrat_faction]"
 
  SAM_unity_party_increase_ROA:0 "Increase §jROA Influence§!"
@@ -426,23 +426,23 @@
  SAM_unity_party_decrease_business:0 "Decrease §TBusiness Influence§!"
  SAM_unity_party_decrease_democrats:0 "Decrease §MDemocrat Influence§!"
  
- SAM_very_high_ROA_faction_strength:0 "Very Powerful"
- SAM_high_ROA_faction_strength:0 "Powerful"
- SAM_medium_ROA_faction_strength:0 "Average"
- SAM_low_ROA_faction_strength:0 "Weak"
- SAM_negligent_ROA_faction_strength:0 "Negligent"
+ SAM_very_high_ROA_faction_strength:0 "매우 강력함"
+ SAM_high_ROA_faction_strength:0 "강력함"
+ SAM_medium_ROA_faction_strength:0 "보통"
+ SAM_low_ROA_faction_strength:0 "미약함"
+ SAM_negligent_ROA_faction_strength:0 "미미함"
  
- SAM_very_high_business_faction_strength:0 "Very Powerful"
- SAM_high_business_faction_strength:0 "Powerful"
- SAM_medium_business_faction_strength:0 "Average"
- SAM_low_business_faction_strength:0 "Weak"
- SAM_negligent_business_faction_strength:0 "Negligent"
+ SAM_very_high_business_faction_strength:0 "매우 강력함"
+ SAM_high_business_faction_strength:0 "강력함"
+ SAM_medium_business_faction_strength:0 "보통"
+ SAM_low_business_faction_strength:0 "미약함"
+ SAM_negligent_business_faction_strength:0 "미미함"
  
- SAM_very_high_democrat_faction_strength:0 "Very Powerful"
- SAM_high_democrat_faction_strength:0 "Powerful"
- SAM_medium_democrat_faction_strength:0 "Average"
- SAM_low_democrat_faction_strength:0 "Weak"
- SAM_negligent_democrat_faction_strength:0 "Negligent"
+ SAM_very_high_democrat_faction_strength:0 "매우 강력함"
+ SAM_high_democrat_faction_strength:0 "강력함"
+ SAM_medium_democrat_faction_strength:0 "보통"
+ SAM_low_democrat_faction_strength:0 "미약함"
+ SAM_negligent_democrat_faction_strength:0 "미미함"
  
  SAM_zykov_increase_democrat_low_tt:0 "This will §Gincrease§! §MDemocrat Influence§!"
  SAM_zykov_increase_democrat_high_tt:0 "This will §Gincrease§! §MDemocrat Influence§! greatly"
@@ -478,13 +478,13 @@
  SAM_It_Never_Ends:0 "끝나지 않는 악몽"
  SAM_It_Never_Ends_desc:0 "예측할 수 없는 간격을 두고, 머리 위로 비행기들이 도착합니다. 어떨 때는, 그들의 목적지는 저 멀리 러시아 내부입니다. 그러나 다른 때에는, 그들은 사마라의 위를 순회하며 소름 끼치는 소리와 함께 At others, however, they loop over Samara to drop their payloads, screaming into the air. 그 빈도를 예측할 수 없는 지금, 이 무작위한 전시 폭격에 익숙해질 수 있는 사람은 아무도 없습니다. 그저 견뎌낼 뿐입니다.\n\n그럼에도 불구하고, 변화의 기류가 불 지도 모릅니다. 독일이 본인들의 문제로 무너지게 된다면, 어쩌면 이 저주받은 전시 폭격도 이번 달이 마지막인 것이 아닐까요? 그런 연유로, 이 새로운 기회의 창구에 대비하기 위한 장교 회의가 소집되었습니다. 수많은 파벌들이 블라소프와 다른 장교들에게 자신들의 주장을 역설했습니다,\n\n한편으로는, 일반적인 수복 작업도 계속됩니다. 전쟁의 기계들에게 파괴된 건물들은 그 부품을 빼내 새로운 장소로 옮깁니다. 타격 연습용으로 설치된 운송 차량들은 다른 사람들이 지나갈 수 있도록 도로에서 밀어냅니다. 러시아에서의 삶은 계속됩니다."
 
- SAM_Take_What_is_There:0 "있는 것을 가져가다"
+ SAM_Take_What_is_There:0 "있는 것으로 버티다"
  SAM_Take_What_is_There_desc:0 "At the conference, Zykov and his supporters have fiercely defended their position on both ideological and coldly pragmatic grounds.\n\nTheir argument goes like this: increasing taxes on the population will drive it further away from us, and the Army of National Liberation can scarcely afford to lose what few hints of goodwill it still has. Accepting more German weapons is also not a good plan, as our soldiers must be seen and known as liberators of Russia, instead of mere German puppets. Thus, the best, and hardest path according to Zykov is to make do with what we have. This will leave us weaker in the short term. But being loved by our people and embraced by those we liberate will be incredibly helpful."
 
  SAM_Scavenge_for_Vehicles:0 "Scavenge for Vehicles"
  SAM_Scavenge_for_Vehicles_desc:0 "Zykov might have convinced the rest of the officer corp and it's various factions not to increase supply requisition on the people, nor supply demands to the Germans, but there is still a tangible shortage in almost everything. The most pressing concern is our ever dwindling pool of motorized vehicles. Without much native industry and with limited import capacities, our fleet of trucks and armored vehicles melts by the day.\n\nOur men have been sent to scour the countryside for anything that might roll downhill. Tractors that peasants have given up on, military cars and trucks that have been abandoned in the wood, whatever broken down German or Soviet tank hidden in marshes or forests. This iron harvest will be a meager one, and most of what we find will likely be useless. But any quantity of engine blocks and armor plate we can scrounge up will be useful for the cause."
 
- SAM_Looking_For_Treasure:0 "Looking for Treasure"
+ SAM_Looking_For_Treasure:0 "보물 사냥"
  SAM_Looking_For_Treasure_desc:0 "With the drain on our vehicle fleet somewhat arrested, our soldiers are moving their efforts to whatever else can be lifted and carted off to our bases. Forgotten German or Soviet supply caches, farms abandoned by fleeing or dead peasants, downed German planes, buried Tsarist gold...\n\nThe pile of junk brought back to the bases is sifted through by the men. Whatever we can use is stashed away. Among the rest, whatever has a monetary value is hauled to convoys headed for the Moskowien border, where black market traders will give us a fraction of its price for our trouble. Selling abandoned cuckoo clocks and teapots will not make us rich men, but anything we can trade on the black market for supplies will still prove to be of value.\n\nTo cheer up the soldiers, fifteen percent of every discovery's value Is given to the men directly to encourage them to search. Of course, any soldier that steals from civilians to increase his stash shall be shot. The idea is to avoid angering them further, not use them to pad our retirement funds."
 
  SAM_Take_What_is_Ours:0 "우리의 것을 가져가다"
@@ -499,32 +499,32 @@
  SAM_Take_What_is_Theirs:0 "저들의 것을 가져가다"
  SAM_Take_What_is_Theirs_desc:0 "Against Bunyachenko and Zykov stands Oktan's faction of officers and German "advisors". Why bother to scavenge for rusted Soviet firearms and moldy turnips covered in cow shit while Samara's useless peasants hide their bounty underground? The KONR is blessed with access to the greatest military superpower the world has ever seen. Why not make use of it? Every shipment of quality German arms and supplies is another advantage that the Liberation Army cannot go without.\n\nOktan's proposal has gained quite a bit of support beyond his own limited circle. For some Zykovites, getting weapons and supplies from the Germans means avoiding further taxation on the people. For some of Bunyachenko's faction, the prospect of new ammunition for their German weapon supply is very attractive indeed. However, those not in favor of the plan argue from many angles, that depending on the Germans is a bad plan in the long run, and that continually begging for equipment is unsightly. In the background, the German advisors observe the unfolding debate."
 
- SAM_German_Arms:0 "German Arms"
+ SAM_German_Arms:0 "독일제 군수품"
  SAM_German_Arms_desc:0 "To the German's credit, the shipments came rapidly, and in considerable quantity. But rapid delivery and quantity of shipped equipment is perhaps the only thing that can be said about the German aid.\n\nSoldiers have spent days unpacking crates after crates of world war two era Kar98k rifles and 7.92x57mm Mauser ammunition. The Germans have supplemented their generous supply of antiquated weaponry and ammunition with stale rations. Optimists argue that they're from the West Russian War, and are still edible. Pessimists claim they're left over from world war two.\n\nOktan and his supporters do not seem to mind this. Food is food, and weapons are weapons. An army wins or dies based on discipline and leadership, and KONR has both in spades... or at least it would, if not for the whining and negative attitude of its current officer corp. One ought not to need anything stronger than a bayonet to clear communist rabble, degenerate democrats and alcoholic bandits."
 
- SAM_Moskowien_Contacts:0 "Moskowien Contacts"
+ SAM_Moskowien_Contacts:0 "모스코비엔과의 계약"
  SAM_Moskowien_Contacts_desc:0 "The shipments from the Reich will prove invaluable. But perhaps there is still more we can obtain through German help. Of course, the German government is often busy, and so it is time for us to talk to other German friends.\n\nAcross the border lies Reichskommissariat Moskowien, the vast German administration built to administer Russia west of the AA line. Its hardscrabble population of settlers, military garrisons and Russian second class citizens try to make a living in the shadow of the warlords and bandits that lurk beyond the border. Over the year, members of the KONR such as Oktan have built up contact with citizen's militias and military officers of Moskowien. In exchange for help and support to Samara's government, the KONR has done its best to monitor its section of the border. Now that the German bombing campaign might be coming to an end, why not ring up our associates beyond the border and request more supplies, lest hordes of bolshevik anarchists and bandits pour over our border?"
 
  SAM_Dealing_with_Dissent:0 "반발에 대한 대처"
  SAM_Dealing_with_Dissent_desc:0 "It has not escaped Vlasov and the KONR leadership's attention that our army of National Liberation is wildly unpopular even among the members of our "nation" that we have already "liberated".\n\nIgnoring for the moment issues of taxation we may or may not have exacerbated, the people of Samara disdain us as foreign stooges. Many citizens, especially among the left leaning, see us as unrepentant traitors that have contributed to the failure of the WRRF.\n\nOpinion among the officer corp as to the best solution run the usual gamut of proposals. It would thus be for the best to convoke another meeting of the general staff to discuss the issue, and perhaps settle on one strategy to secure the good will of the people... or at least the absence of their opposition."
 
- SAM_The_Smart_Way:0 "The Smart Way"
+ SAM_The_Smart_Way:0 "현명한 길"
  SAM_The_Smart_Way_desc:0 "The indefatigable Zykov has used his time at the podium to argue that the best way forward is to go at it intelligently and legitimately try to improve the lives of our citizens. Legitimacy is derived from the people's support, and our soldiers are still brothers, fathers, and sons. The men tilling the fields and building the guns are no less indispensable than the men fighting for a new Russia. Enslaving a whole nation for their purposes was the mistake of the Soviet Union and of the Third Reich, and now the first is long dead and the second finds itself dying.\n\nIt might not be the easiest path. Fear, suspicion and shattered hopes push many of our citizens towards distrust. Some may never forgive us for working with the Germans, and we will have to go the extra mile to prove our good intents. But this problem must be solved now, lest our reputation of tyranny spread to newly liberated provinces."
 
  SAM_Hearing_the_People_Out:0 "민중의 말에 귀기울이다"
  SAM_Hearing_the_People_Out_desc:0 "Our community outreach has gotten some results, despite the cynicism of most of the officer staff. Soldiers have begun to renovate roads in rural communities and helping to clear rubble. Peasants have, at first, been reluctant to bother the soldiers, but a few have since come out seeking help with other tasks. The soldiers have obliged to the most pressing ones, and as a result quite a bit of good will has been founded.\n\nIn parallel to this, a series of mixed civilian-military tribunals have been established. People wronged by our soldiers or government are encouraged to register their complaints with the judges. While it is out of the question to punish our soldiers too harshly - lest we lose control of the state - ensuring that the worst excesses are penalized and that aggrieved citizens are compensated goes a long way. Another idea that is slowly gaining traction are mixed military-civilian community councils, where small garrisons see their organization enmeshed with the village they protect. It will be a long process, but getting the people to support and back our cause now has a good chance of actually happening."
 
 
- SAM_The_Easy_Way:0 "The Easy Way"
+ SAM_The_Easy_Way:0 "쉬운 길"
  SAM_The_Easy_Way_desc:0 "The accursed Bolshevik Lenin once quipped that the average citizen is only three meals away from revolution. Food uncertainty and boredom are among the best way to let a group of docile lambs get turned into scheming wolves.\n\nBunyachenko and many other among the officer committee have suggested a simple plan: buy and distribute vast quantities of foods. Living on the edge of starvation is the sad normal in the Russian Anarchy, and simply keeping our people well fed will generate generous amount of positive apathy. While Zykov is not wrong that the population needs to cooperate with our liberation project, it's not worth investing that much effort into improving their life. Better to simply leave them to their own devices, content and fed while the soldiers busy themselves with national liberation.\n\nAcquiring the food will cost money, of course. But with the upcoming wars, a great amount of opportunities will present themselves. Our coffers can be refilled once the wars begin."
 
  SAM_Food_for_All:0 "모두를 위한 양식"
  SAM_Food_for_All_desc:0 "Having a steady pipeline of food imports and purchases coming in is one thing. Making sure it's distributed equally and without corruption or losses is quite another.\n\nLike many Russian successor states, our woeful infrastructure has decayed considerably since the Soviet Era through lack of maintenance and terror bombings. But when there's a will, there's a way. We already garrison soldiers throughout all of our territories, and these men have to be supplied anyway. By using our extensive logistics infrastructure, we can make sure no village or community is left behind. This will require much carting over of food through difficult terrain by foot or by horse. The peace and quiet earned by making sure every single citizen is well fed will make this struggle well worth it."
 
- SAM_The_Hard_Way:0 "The Hard Way"
+ SAM_The_Hard_Way:0 "어려운 길"
  SAM_The_Hard_Way_desc:0 "Of course, helping the peasants or feeding them to earn their compliance both assume that their opinion is worth anything. The army of National Liberation gives its life to defend the people from bandits and Bolsheviks. Those ungrateful enough to betray us are no better than traitors.\n\nOktan and a few hardliners have dismissed the matter of rebellious citizens with a proposal for a crackdown. Unleash the troops on seditious communities. Throw suspected communist infiltrators in jail. Beat down protests violently. There's a life and death war, out there, and softness has already condemned Russia in all four of its major wars of the 20th century. Would a mighty bear care for the opinions of worms? The National Liberation Army will secure its rear with brutal efficiency."
 
- SAM_No_Soup_for_You:0 "No Soup for You"
+ SAM_No_Soup_for_You:0 "무상의 스프는 없어요"
  SAM_No_Soup_for_You_desc:0 "Repression has had its days, and many skulls were cracked. Now after stamping out the embers of discontent, the time has come to douse them for good.\n\nOktan and Zykov had a good point when they discussed the precarious food condition of the population. It's a damn shame that so many of our loyal citizens go hungry while Bolshevik pigs gorge themselves on no doubt ill acquired food. Time for some redistribution, so beloved by left wing bandits. By seizing food from problem areas and redistributing it to loyal citizens, we will simultaneously reward patriots and starve out bandit communities. The population will learn that to oppose us means going hungry.\n\nThis will teach the rabble its proper place."
 
  SAM_Our_Loyalty:0 "우리의 충성"
@@ -569,7 +569,7 @@
  SAM_Strenuous_Frenemies:0 "Excising the Rot"
  SAM_Strenuous_Frenemies_desc:0 "Oktan and the Germans think us weak willed and easily subverted once the time comes. Let them dream this, for our own day shall come, too.\n\nWith both factions giving us some leeway, it's time to crack down hard on corruption within the ROA. Any German bandit or smuggler caught aiding this blight on the people will be publicly shot. Junior officers, common soldiers and citizens victim to predation in the past will be compensated. By shedding the image of a decaying German junta even further we can in time earn the respect of our citizens."
 
- SAM_Making_Use_of_Vlasov:0 "Making Use of Vlasov"
+ SAM_Making_Use_of_Vlasov:0 "블라소프의 쓸모"
  SAM_Making_Use_of_Vlasov_desc:0 "Whatever could be said about him, one cannot deny that Vlasov is, indeed, a significant person in the thousand-year-old Russian history: A living myth who will be remembered along such figures as Alexander Nevsky and maybe even Peter the Great for his decisiveness to rise against tyranny and lead the Russian people into a new, freer future. As befits any true historical hero, Vlasov's biography is full of wrongful and controversial decisions, and many deprecate him for his mistakes, but they will not be the judges of the Motherlands History.\n\nThe stagnation of the internal affairs in Samara caused many people, including both the elite of the Committee and the common Russian folk, to turn on General Vlasov for his alleged apathy to the needs of Russia and his inability to govern the KONR, but his authority among the new Russian government is still indisputable. Combined together, Vlasov's supreme power and his backing of Zykov's democratic reformist bureaucrats will become a battering ram which will break down the discontent of the KONR and open a way to the true reforms we wish to see enacted."
 
  SAM_The_Power_of_Radio:0 "라디오의 힘"
@@ -600,7 +600,7 @@
  SAM_Tatar_Bravery:0 "타타르의 용맹"
  SAM_Tatar_Bravery_desc:0 "The soldiers of Tatarstan fought well in the war, but in the end our forces were victorious. Now, before we march any further, we must work on integrating our new population into the government of Samara. While many former top-level officials will have to be gotten rid of one way or another, to ease the transition and reduce discontent we will keep many of the pre-existing apparatuses of the old regime in place, at least for the time being.\n\nThis will carry with it the added benefit of reducing the amount of resources we must dedicate to the new territories, allowing our focus to be shifted to more pressing matters.\n\nFinally, Zykov himself has proposed a campaign to educate our people in Tatar culture, with the hope of creating a sense of understanding between our two ethnic groups following the recent conflict."
 
- SAM_Sabotage_their_Tanks:0 "Sabotage Their Tanks"
+ SAM_Sabotage_their_Tanks:0 "탱크 사보타주"
  SAM_Sabotage_their_Tanks_desc:0 "The next logical target for our forces is the warlord state of Gorky, situated on our northwestern frontier and ruled by Nikolai Averin with an iron fist. His gang of bandits is well-known throughout the region for its fleets of tanks that allow him to launch raids against whoever he feels like with virtual impunity, but with overreliance comes weakness. If we can train teams of saboteurs to infiltrate the city and its factories, they can get to work chipping away at our next foe's one and only advantage.\n\nBroken carburetors, diluted fuel, mysterious ammunition explosions in the dead of night, anything that can be done to deprive Gorky of its precious tanks. This campaign of subterfuge will not be an easy or quick, but once it is done the only task that will remain will be to clean up the armorless stragglers."
 
  SAM_Gun_Down_Gorki:0 "Gun Down Gorky"
@@ -609,7 +609,7 @@
  SAM_Open_the_Factories_Once_More:0 "Open the Factories Once More"
  SAM_Open_the_Factories_Once_More_desc:0 "Following the capitulation of Averin's forces the city of Gorky has fallen into our hands largely intact, and its many industrial plants with it. Chief among these is the Krasnoye Sormovo Factory, in near-constant use since the Second World War producing the venerable T-34. If we can put the factory back into operation, our forces would be bolstered by tanks, an advantage unmatched in this part of Russia as attested to by the fact that the warlord who previously occupied this land was able to survive for so long.\n\nWe will not make the same mistake as Averin, however: our new armored forces will be integrated alongside the infantry and cavalry in a sensible manner, and new doctrines will be developed dictating their use. We are not a patchwork collection of bandits; ours is the army that is paving the road to a new Russia, and now that we have an industrial base that dream doesn't seem so distant anymore."
 
- SAM_Rally_the_populace:0 "Rally the Populace"
+ SAM_Rally_the_populace:0 "민중 대소집"
  SAM_Rally_the_populace_desc:0 "The people of Gorky have been liberated from the tyranny of their bandit overlords, but our work is still far from done. Governmental institutions are practically non-existent within the city, and the people lack even the most basic social services. We must therefore work hard to bring Gorky up to the standards of our own lands, demonstrating to the populace that we are on their side. So far we have begun distributing a portion of the spoils obtained from raids that the bandits had so selfishly hoarded for themselves, the rest to be returned to their rightful owners, but this is only a temporary measure.\n\nTo achieve lasting stability it will be necessary to introduce the gifts of democracy to the city and villages that surround it, to say nothing of instructing the people in its benefits. Of course we will still keep a few guiding hands in place, but these will be withdrawn over time, upon which the people of Gorky will finally be able to experience the fruits of their own labor."
 
  SAM_Secure_Their_Stockpiles:0 "Secure Their Stockpiles"
@@ -669,7 +669,7 @@
  SAM_Equality_for_All:0 "모두를 위한 평등"
  SAM_Equality_for_All_desc:0 "The true measure of a country is the level of freedom in which the inhabitants live in. In the Hitler-worshipping Aryan Brotherhood, the true freedom-loving Russians lived under absolute control, with only those mad or desperate enough to conform to the brotherhood's depraved doctrines. We have put an end to this horror, and we shall replace it with the rule of law.\n\nRussia has only citizens, sons and daughters equal under the law. We shall teach this to a generation deprived of its fundamental freedom, and re-educate those that have forgotten these inalienable rights."
 
- SAM_Execute_Their_Leaders:0 "Execute Their Leaders"
+ SAM_Execute_Their_Leaders:0 "지도자 처형"
  SAM_Execute_Their_Leaders_desc:0 "With the idols destroyed and freedom reestablished, all that remains is disposing of the waste of material and food that is the leaders of these vile dogs. While no trial is needed to see the extent of their crimes, it is in appeal to our moral standards and strong belief in democracy and fair treatment that we will, regardless, try these men as Russians.\n\nThere is no surprise in the room when the Judge hands down the decision; only joy. Minutes later, in a specially prepared room, the ringleaders of the AB including its leader, Gutrum Vagner, were shot by a firing squad of some of the finest Russians we could find.\n\nDeath to those who will willingly trade their people for a false doctrine! Death to the enemies of a free Russia! Death to Germany and her collaborators! Forwards to a free and equal Russia!"
 
  SAM_The_Remaining_Fools:0 "남아있는 위협들"
@@ -678,13 +678,13 @@
  SAM_The_Muslim_Tatars:0 "The Mullahs of Bashkiria"
  SAM_The_Muslim_Tatars_desc:0 "In Bashkiria, faith ties the people together. While this is an admirable sentiment, their reliance on their faith has given rise to those who would wish to see them subjugated under the false flag of their Muslim faith. This system has bred corruption and societal decay, with Hanafi Islamic law in effect and the practice of extracting a tax on non-Muslim citizens, we wish to free the Bashkir population from themselves.\n\nThere can be no compromising with these religious fanatics. Every passing day they oppress the non-Muslim majority and leave us with little choice but to bring these people into a free Russia, where all religions may be practiced freely. We now march on Ufa."
 
- SAM_Extending_Our_Hand:0 "Extending Our Hand"
+ SAM_Extending_Our_Hand:0 "우리의 손을 뻗다"
  SAM_Extending_Our_Hand_desc:0 "With the capture of Ufa and the escape into hiding of the government of the Islamic Republic that controlled it, it is now up to us to ensure that our liberation of its population is more than just words. While we speak so much about our noble fight against harsh Islamic law oppressing Orthodox Russians, it would be more than hypocritical to turn around this oppression to the local Muslim population. For this reason, we must make amends with Bashkiria's Muslim population.\n\nA council of Muslim leaders, chosen by the Imams of Bashkiria, shall advise the new secular Russian government in Bashkiria, along with a council of Orthodox Christians. This compromise will ensure that religious violence and decisions regarding religion within Bashkiria will be properly advised."
 
  SAM_The_Fractured_State:0 "조각난 국가"
  SAM_The_Fractured_State_desc:0 "Of all the states of the new Russia, there is one that puzzles even those who have spent years of their lives researching post-WW2 Russian politics; that state being Komi. Komi, before the war a gulag ASSR and coal-mining backwater, became the site of a vibrant post-USSR political landscape, with people of all ideologies struggling for power in Komi. This political landscape has created a state so divided that we believe we will have little difficulty invading the torn nation.\n\nWith the plethora of politicians in Komi, we believe we will have little difficulty finding allies amongst the rivals. In doing so we shall cement our legitimacy in Komi and be able to finally bring order and political stability to a land so troubled by the lack of it."
 
- SAM_Piecing_Komi_Together:0 "Piecing Komi Together"
+ SAM_Piecing_Komi_Together:0 "코미를 하나로 묶다"
  SAM_Piecing_Komi_Together_desc:0 "It is said amongst the ROA high command that in order to learn the ins and outs of the Komi political landscape, one would have to take an 8-year specialized and rigorous course at the best of universities from dozens of professors. Unfortunately, we have found ourselves in control of Komi in a number of weeks, leaving us no choice but to improvise. And improvise we will. By creating a list of politicians amicable to our rule we will be able to create a basic friendly government from which we can expand our control and gain knowledge about the other factions native to the region.\n\nHopefully we can stabilize our control of Komi enough to the point that we can begin to establish democratic processes similar to the rest of our republic in the state."
 
  SAM_The_Fanatical_Monks:0 "미친 수도승들"
